@@ -1,0 +1,115 @@
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #343A40;
+    color: #CED4DA;
+    border-radius: 37px;
+    background: #343A40;
+    box-shadow:  5px 5px 15px #15171a,
+             -5px -5px 15px #535d66;
+    margin: 0.5%;
+}
+
+.container{
+    border-radius: 15px;
+    background: #343A40;
+    box-shadow:  5px 5px 15px #15171a,
+             -5px -5px 15px #535d66;
+    margin: 0.5%;
+    padding: 1.5%;
+    min-height: 50vh;
+    width: 40vh;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #343A40;
+}
+form input{
+    /* border-radius: 37px; */
+    background: #343A40;
+    height: 2rem;
+    box-shadow: inset 1px 1px 2px #15171a,
+            inset -1px -1px 2px #535d66;
+    padding-left: 0.4rem;
+    border: 0.2px solid #212529;
+}
+
+.dropDown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.dropDown i{
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+.selectContainer img{
+    max-width: 2rem;
+    padding: 3px;
+    border-radius: 5px;
+    border: 0.1px solid #212529;
+    box-shadow:  1px 1px 3px #15171a,
+             -1px -1px 3px #535d66;
+}
+
+.selectContainer{
+    padding: 3px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 0.1px solid #212529;
+    box-shadow:  1px 1px 3px #15171a,
+             -1px -1px 3px #535d66; 
+}
+.selectContainer select{
+    cursor: pointer;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 3px;
+    color: #15171a;
+    border-radius: 10px;
+    border: 0.1px solid #212529;
+    box-shadow: inset 1px 1px 2px #15171a,
+            inset -1px -1px 2px #535d66;
+}
+
+form button{
+    height: 3rem;
+    font-size: 1.15rem;
+    color: #FFBE0B;
+    border-radius: 10px;
+    border: 0.1px solid #212529;
+    box-shadow: 1px 1px 2px #15171a,
+             -1px -1px 2px #535d66;
+    cursor: pointer;
+}
+
+form button:hover{
+    border: 0.1px solid #212529;
+    box-shadow: inset 1px 1px 2px #15171a,
+            inset -1px -1px 2px #535d66;
+}
